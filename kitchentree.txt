@@ -1,0 +1,647 @@
+Last login: Mon Feb 27 21:35:41 on ttys000
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.12.0
+Homebrew 1.1.10 Homebrew/homebrew-core (git revision 28c4; last commit 2017-02-27)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
+node v7.6.0
+psql (PostgreSQL) 9.6.2
+------------------------------------------
+type unwelcome to remove this message
+aleissia ~
+$ ls
+2	       Desktop/    Downloads/  Movies/	Pictures/  celar      code/
+Applications/  Documents/  Library/    Music/	Public/    celar.pub
+aleissia ~
+$ cd code
+aleissia ~/code
+$ ls
+wdi/
+aleissia ~/code
+$ cd wdi
+aleissia ~/code/wdi
+$ cls
+-bash: cls: command not found
+aleissia ~/code/wdi
+$ ls
+thelionking/  wdi-atx-10/
+aleissia ~/code/wdi
+$ cd wdi-atx-10
+aleissia ~/code/wdi/wdi-atx-10
+$ ls
+homework/  project/
+aleissia ~/code/wdi/wdi-atx-10
+$ cd homework
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ rm cli_golf
+grm: cannot remove 'cli_golf': Is a directory
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ rm -r cli_golf
+grm: remove write-protected regular file 'cli_golf/.git/objects/06/9f66830a859c53c93cbb91e4c77d7eb31efb5c'? 
+grm: cannot remove 'cli_golf/.git/objects/06': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/46/2166d6a6c025681bd3644c7ced29733b98c404'? y
+removed 'cli_golf/.git/objects/46/2166d6a6c025681bd3644c7ced29733b98c404'
+removed directory 'cli_golf/.git/objects/46'
+grm: remove write-protected regular file 'cli_golf/.git/objects/54/43a17693219dc1c5535d511043f64bd0eaaf79'? rm
+grm: cannot remove 'cli_golf/.git/objects/54': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/77/16c2b070b89ea1d024e3155efa9bc75931b32d'? ls 
+grm: cannot remove 'cli_golf/.git/objects/77': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/9f/1d5d3fdd7a035ea3d25f8ad7a1afdd7c4c0583'? exit
+grm: cannot remove 'cli_golf/.git/objects/9f': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/a4/935f0651048c14ca182f41576e18aa9f61ded5'? grm: cannot remove 'cli_golf/.git/objects/a4': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/b6/e0e325bff42fcd0f296b09fc3ce268cadbf6d3'? grm: cannot remove 'cli_golf/.git/objects/b6': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/e3/4f27abbf1ca06b0486c447e902845be743ecec'? grm: cannot remove 'cli_golf/.git/objects/e3': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/e6/e7468f32685746f1a85a7cee7aa58c30451f6b'? grm: cannot remove 'cli_golf/.git/objects/e6': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/ed/83d1f6ffbbc2f8db89d0e06ee000806381fd1e'? grm: cannot remove 'cli_golf/.git/objects/ed': Directory not empty
+removed directory 'cli_golf/.git/objects/pack'
+removed 'cli_golf/.git/packed-refs'
+removed 'cli_golf/.git/refs/heads/master'
+removed directory 'cli_golf/.git/refs/heads'
+removed 'cli_golf/.git/refs/remotes/origin/HEAD'
+removed directory 'cli_golf/.git/refs/remotes/origin'
+removed directory 'cli_golf/.git/refs/remotes'
+removed directory 'cli_golf/.git/refs/tags'
+removed directory 'cli_golf/.git/refs'
+removed 'cli_golf/kitchen/fridge/crisper-drawer/apples.txt'
+removed 'cli_golf/kitchen/fridge/crisper-drawer/lettuce.txt'
+removed directory 'cli_golf/kitchen/fridge/crisper-drawer'
+removed 'cli_golf/kitchen/fridge/freezer/couch.txt'
+removed 'cli_golf/kitchen/fridge/freezer/frozenpeas.txt'
+removed 'cli_golf/kitchen/fridge/freezer/icecream.txt'
+removed directory 'cli_golf/kitchen/fridge/freezer'
+removed 'cli_golf/kitchen/fridge/milk.txt'
+removed directory 'cli_golf/kitchen/fridge'
+removed 'cli_golf/kitchen/kitchen/banana-peels.txt'
+removed 'cli_golf/kitchen/kitchen/chicken-bones.txt'
+removed 'cli_golf/kitchen/kitchen/egg-shells.txt'
+removed 'cli_golf/kitchen/kitchen/sink/clean-dishes.txt'
+removed 'cli_golf/kitchen/kitchen/sink/delete-me.txt'
+removed 'cli_golf/kitchen/kitchen/sink/dirty-dishes.txt'
+removed directory 'cli_golf/kitchen/kitchen/sink'
+removed directory 'cli_golf/kitchen/kitchen'
+removed 'cli_golf/kitchen/pantry/cans.txt'
+removed 'cli_golf/kitchen/pantry/cereal.txt'
+removed directory 'cli_golf/kitchen/pantry'
+removed directory 'cli_golf/kitchen/sink'
+removed directory 'cli_golf/kitchen'
+removed 'cli_golf/kitchen.zip'
+removed 'cli_golf/LICENSE.txt'
+removed 'cli_golf/README.md'
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ cd cli_golf
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ cd cli_golf
+-bash: cd: cli_golf: No such file or directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ clear
+
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ rm cli_golf
+grm: cannot remove 'cli_golf': Is a directory
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ cd cli_golf
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ rm -r cli_golf
+grm: remove write-protected regular file 'cli_golf/.git/objects/06/9f66830a859c53c93cbb91e4c77d7eb31efb5c'? rm
+grm: cannot remove 'cli_golf/.git/objects/06': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/54/43a17693219dc1c5535d511043f64bd0eaaf79'? rm cli_golf
+grm: cannot remove 'cli_golf/.git/objects/54': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/77/16c2b070b89ea1d024e3155efa9bc75931b32d'? rm -r cli_golf
+grm: cannot remove 'cli_golf/.git/objects/77': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/9f/1d5d3fdd7a035ea3d25f8ad7a1afdd7c4c0583'? cls
+grm: cannot remove 'cli_golf/.git/objects/9f': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/a4/935f0651048c14ca182f41576e18aa9f61ded5'? grm: cannot remove 'cli_golf/.git/objects/a4': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/b6/e0e325bff42fcd0f296b09fc3ce268cadbf6d3'? grm: cannot remove 'cli_golf/.git/objects/b6': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/e3/4f27abbf1ca06b0486c447e902845be743ecec'? grm: cannot remove 'cli_golf/.git/objects/e3': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/e6/e7468f32685746f1a85a7cee7aa58c30451f6b'? grm: cannot remove 'cli_golf/.git/objects/e6': Directory not empty
+grm: remove write-protected regular file 'cli_golf/.git/objects/ed/83d1f6ffbbc2f8db89d0e06ee000806381fd1e'? grm: cannot remove 'cli_golf/.git/objects/ed': Directory not empty
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ cls
+-bash: cls: command not found
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ clear
+
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ rm -rf cli_golf
+removed 'cli_golf/.git/objects/06/9f66830a859c53c93cbb91e4c77d7eb31efb5c'
+removed directory 'cli_golf/.git/objects/06'
+removed 'cli_golf/.git/objects/54/43a17693219dc1c5535d511043f64bd0eaaf79'
+removed directory 'cli_golf/.git/objects/54'
+removed 'cli_golf/.git/objects/77/16c2b070b89ea1d024e3155efa9bc75931b32d'
+removed directory 'cli_golf/.git/objects/77'
+removed 'cli_golf/.git/objects/9f/1d5d3fdd7a035ea3d25f8ad7a1afdd7c4c0583'
+removed directory 'cli_golf/.git/objects/9f'
+removed 'cli_golf/.git/objects/a4/935f0651048c14ca182f41576e18aa9f61ded5'
+removed directory 'cli_golf/.git/objects/a4'
+removed 'cli_golf/.git/objects/b6/e0e325bff42fcd0f296b09fc3ce268cadbf6d3'
+removed directory 'cli_golf/.git/objects/b6'
+removed 'cli_golf/.git/objects/e3/4f27abbf1ca06b0486c447e902845be743ecec'
+removed directory 'cli_golf/.git/objects/e3'
+removed 'cli_golf/.git/objects/e6/e7468f32685746f1a85a7cee7aa58c30451f6b'
+removed directory 'cli_golf/.git/objects/e6'
+removed 'cli_golf/.git/objects/ed/83d1f6ffbbc2f8db89d0e06ee000806381fd1e'
+removed directory 'cli_golf/.git/objects/ed'
+removed directory 'cli_golf/.git/objects'
+removed directory 'cli_golf/.git'
+removed directory 'cli_golf'
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ cls
+-bash: cls: command not found
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ clear
+
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ git clone https://github.com/wdi-atx-10/cli_golf.git
+Cloning into 'cli_golf'...
+remote: Counting objects: 12, done.
+remote: Total 12 (delta 0), reused 0 (delta 0), pack-reused 12
+Unpacking objects: 100% (12/12), done.
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ cd cli_golf
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master
+$ ls
+LICENSE.txt  README.md	kitchen.zip
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master
+$ cd kitchen
+-bash: cd: kitchen: No such file or directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master
+$ cd kitchen.zip
+-bash: cd: kitchen.zip: Not a directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master
+$ open kitchen.zip
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master
+$ ls
+LICENSE.txt  README.md	kitchen/  kitchen.zip
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ cd kitchen
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+cans.txt  fridge/  pantry/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd cans.txt
+-bash: cd: cans.txt: Not a directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd fridge
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ mv -r trashcan ../
+gmv: invalid option -- 'r'
+Try 'gmv --help' for more information.
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ mv trashcan ../
+'trashcan' -> '../trashcan'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+diapers.txt  freezer/  milk.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+cans.txt  fridge/  pantry/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd trashcan
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ mv sink ../../
+'sink' -> '../../sink'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+cans.txt  fridge/  pantry/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ ls
+LICENSE.txt  README.md	kitchen/  kitchen.zip  sink/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ mv sink /kitchen
+gmv: cannot move 'sink' to '/kitchen': Permission denied
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ mv sink ../kitchen
+'sink' -> '../kitchen'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ ls
+LICENSE.txt  README.md	kitchen/  kitchen.zip
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ cd kitchen
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+cans.txt  fridge/  pantry/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ ls
+LICENSE.txt  README.md	kitchen/  kitchen.zip
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/  kitchen/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ cd kitchen
+aleissia ~/code/wdi/wdi-atx-10/homework/kitchen
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/kitchen
+$ rm delete-me.txt
+removed 'delete-me.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/kitchen
+$ rm dirty-dishes.txt
+removed 'dirty-dishes.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/kitchen
+$ ls
+clean-dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/kitchen
+$ rm clean-dishes.txt
+removed 'clean-dishes.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/kitchen
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/kitchen
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/  kitchen/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ rm kitchen
+grm: cannot remove 'kitchen': Is a directory
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ rm -rf kitchen
+removed directory 'kitchen'
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ ls
+cli_golf/
+aleissia ~/code/wdi/wdi-atx-10/homework
+$ cd cli_golf
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ ls
+LICENSE.txt  README.md	kitchen/  kitchen.zip
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ cd kitchen
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+cans.txt  fridge/  pantry/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ mkdir sink/
+gmkdir: created directory 'sink/'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd sink
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master
+$ touch dirty dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ ls
+dirty  dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ ls
+dirty  dishes.txt  drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ rm dirty
+removed 'dirty'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ ls
+dishes.txt  drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ rm dishes.txt
+removed 'dishes.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master
+$ ls
+drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master
+$ touch dirty-dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ ls
+dirty-dishes.txt  drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ cd drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink/drying-rack on master
+$ touch clean-dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink/drying-rack on master[?]
+$ ls
+clean-dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink/drying-rack on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ ls
+dirty-dishes.txt  drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ mv cans.txt pantry/
+'cans.txt' -> 'pantry/cans.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd trashcan
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd pantry
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ mv crisper-drawer fridge/
+'crisper-drawer' -> 'fridge/'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt  fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+diapers.txt  freezer/  milk.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ rm diapers.txt
+removed 'diapers.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+freezer/  milk.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd pantry
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt  fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ cd fridge
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master[?]
+$ ls
+lettuce.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master[?]
+$ rm lettuce.txt
+removed 'lettuce.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt  fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ rm fridge
+grm: cannot remove 'fridge': Is a directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ rm fridge/
+grm: cannot remove 'fridge/': Is a directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ rm fridge
+grm: cannot remove 'fridge': Is a directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt  fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ cd fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master
+$ cd fridge
+-bash: cd: fridge: No such file or directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry/fridge on master
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt  fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd firdge/
+-bash: cd: firdge/: No such file or directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd fridge
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+freezer/  milk.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ mkdir crisper-drawer/
+gmkdir: created directory 'crisper-drawer/'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+crisper-drawer/  freezer/  milk.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ cd crisper-drawer
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/crisper-drawer on master
+$ ls
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/crisper-drawer on master
+$ touch apples.txt lettuce.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/crisper-drawer on master[?]
+$ ls
+apples.txt  lettuce.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/crisper-drawer on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+crisper-drawer/  freezer/  milk.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ cd freezer/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/freezer on master[?]
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/freezer on master[?]
+$ rm couch.txt
+removed 'couch.txt'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/freezer on master[?]
+$ ls
+frozenpeas.txt	icecream.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge/freezer on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ ls
+crisper-drawer/  freezer/  milk.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ cd..
+-bash: cd..: command not found
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/fridge on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd pantry
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt  fridge/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ rm fridge
+grm: cannot remove 'fridge': Is a directory
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ rm -rf fridge
+removed directory 'fridge'
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ ls
+cans.txt  cereal.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/pantry on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd sink
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ ls
+dirty-dishes.txt  drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ cd drying-rack
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink/drying-rack on master[?]
+$ ls
+clean-dishes.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink/drying-rack on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ ls
+dirty-dishes.txt  drying-rack/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/sink on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd trashcan
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen/trashcan on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ ls
+fridge/  pantry/  sink/  trashcan/
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf/kitchen on master[?]
+$ cd ..
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ ls
+LICENSE.txt  README.md	kitchen/  kitchen.zip
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ tree
+-bash: tree: command not found
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ brew install tree
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core, homebrew/dupes).
+==> New Formulae
+buildifier           monitoring-plugins   pqiv
+==> Updated Formulae
+aws-sdk-cpp                    miller
+awscli                         plantuml
+cassandra                      selenium-server-standalone
+conan                          vim
+concurrencykit                 vnu
+erlang                         yarn
+homebrew/dupes/screen          youtube-dl
+
+==> Downloading https://homebrew.bintray.com/bottles/tree-1.7
+########################################################     ######################################################################## 100.0%
+==> Pouring tree-1.7.0.yosemite.bottle.1.tar.gz
+🍺  /usr/local/Cellar/tree/1.7.0: 7 files, 113.4K
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ tree
+.
+├── LICENSE.txt
+├── README.md
+├── kitchen
+│   ├── fridge
+│   │   ├── crisper-drawer
+│   │   │   ├── apples.txt
+│   │   │   └── lettuce.txt
+│   │   ├── freezer
+│   │   │   ├── frozenpeas.txt
+│   │   │   └── icecream.txt
+│   │   └── milk.txt
+│   ├── pantry
+│   │   ├── cans.txt
+│   │   └── cereal.txt
+│   ├── sink
+│   │   ├── dirty-dishes.txt
+│   │   └── drying-rack
+│   │       └── clean-dishes.txt
+│   └── trashcan
+│       ├── banana-peels.txt
+│       ├── chicken-bones.txt
+│       └── egg-shells.txt
+└── kitchen.zip
+
+8 directories, 15 files
+aleissia ~/code/wdi/wdi-atx-10/homework/cli_golf on master[?]
+$ 
